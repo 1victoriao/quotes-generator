@@ -2,7 +2,7 @@ function generateQuote(event) {
   event.preventDefault();
 
   new Typewriter("#quotes", {
-    strings: "Special quote here",
+    strings: "Your very own quote here",
     autoStart: true,
     delay: 1,
     cursor: "",
