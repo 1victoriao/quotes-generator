@@ -29,8 +29,8 @@ form {
   margin-bottom: 30px;
 }
 
-a{
-    color:white;
+a {
+  color: white;
 }
 
 .instructions {
@@ -53,16 +53,17 @@ a{
   font-size: 16px;
 }
 
-.quote {
+.quotes {
   font-size: 16px;
   padding: 20px;
   line-height: 24px;
   background-color: rgb(246, 209, 205);
   border-left: 3px solid rgb(240, 141, 130);
+  color: black;
 }
 
-footer{
-    text-align: center;
-    font-size: 13px;
-    margin-top: 30px;
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
 }
