@@ -8,42 +8,42 @@
   </head>
   <body>
     <div class="container">
-    <header>
-      <h1>Welcome to the AI Quotes</h1>
-    </header>
+      <header>
+        <h1>Welcome to the AI Quotes</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the quote"
-          autofocus
-          required
-          autocomplete="off"
-          class="instructions"
-        />
-        <input type="submit"  class="submit-button"/>
-      </form>
-      <div class="quote">
-        The quotes will go here
-        <br />
-        The quotes will go here
-      </div>
-    </main>
- 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/1victoriao" target="_blank"> Victoria A. </a>
-      and is open-sourced on
-      <a href="https://github.com/1victoriao/quotes-generator" target="_blank">
-        GitHub
-      </a>
-    </footer>
+      <main>
+        <form id="quote-generator-form">
+          <input
+            type="text"
+            placeholder="Enter the topic of the quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="quote" id="quote"></div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/1victoriao" target="_blank">
+          Victoria A.
+        </a>
+        and is open-sourced on
+        <a
+          href="https://github.com/1victoriao/quotes-generator"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
 
     <script>
       src = "src/index.js";
     </script>
-
   </body>
 </html>
