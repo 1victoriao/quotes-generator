@@ -16,6 +16,9 @@ function generateQuote(event) {
     "You are a quote expert and love to write quotes for others. Make sure to follow the user instructions above";
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quoteElement = document.querySelector("#quotes");
+  quoteElement.classList.remove("hidden");
+
   axios.get(apiURL).then(showQuote);
 }
 
